@@ -18,9 +18,9 @@
             </nav>
 
             <h1 class="band-name band-name-large">TreeCo</h1>
-						</header>
+	</header>
             <section class="content-section container">
-            <h2 class="section-header" color="Black">HOME</h2>
+            <h2 class="section-header">HOME</h2>
             
             <form>
 	            <label>User Name:  <input type="text" name="username"></label>
