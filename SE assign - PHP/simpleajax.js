@@ -3,7 +3,7 @@ var xhr = createRequest();
 function getData(dataSource, divID, aName, aPassword) {
  if(xhr) {
  	var obj = document.getElementById(divID);
- 	var requestbody ="name="+encodeURIComponent(aName)+"&aPassword="+encodeURIComponent(aPassword);
+ 	var requestbody ="Username="+encodeURIComponent(aName)+"&Password="+encodeURIComponent(aPassword);
  	xhr.open("POST", dataSource, true);
  	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
  	xhr.onreadystatechange = function() {
