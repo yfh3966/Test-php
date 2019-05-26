@@ -30,7 +30,7 @@
 		    <p><a href="category.php"> Login</a></br></p>
 	            <p><a href="addUser.php"> Sign Up</a></br></p>
 	            <p><a href="category.php"> Continue Without Login</a></br></p>
-		    <p><a href="New folder/simpleajax.php"> check</a></br></p>
+		    <p><a href="simpleajax.php"> check</a></br></p>
             	    <div id="targetDiv">
 	    		<p>Show here when login successful!</p>
 		   </div>
