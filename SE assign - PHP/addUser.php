@@ -18,7 +18,7 @@
           $password = $_POST['password'];          
           $conn = OpenCon();
 
-          $exist = $conn->query("SELECT 1 FROM SE_1b");
+          $exist = $conn->query("SELECT 1 FROM se_1b");
           if ($exist!==false) {
               //table checked! do nothing, continues to insert into database.
           } else {            
