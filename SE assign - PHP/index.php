@@ -4,6 +4,8 @@
         <title>Plant A Tree</title>
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
+	<script type="text/javascript" src="xhr.js"></script>
+    	<script type="text/javascript" src="simpleajax.js"> </script>
     </head>
     <body>
         <header class="main-header">
@@ -21,13 +23,17 @@
             <h2 class="section-header">HOME</h2>
             
             <form>
-	            <label>User Name:  <input type="text" name="namefield"></label>
-	            <label><br>Password:  <input type="text" name="pwdfield"></label><br><br>
-	            <p><a href="category.php"> Login</a></br></p>
+	            <label>User Name:  <input type="text" name="username"></label>
+	            <label><br>Password:  <input type="text" name="password"></label><br><br>
+		    <input name="submit" type ="button" onClick = "getData('data.php','targetDiv', username.value, password.value) " value = "Login">
+	    </form>
+		    <p><a href="category.php"> Login</a></br></p>
 	            <p><a href="addUser.php"> Sign Up</a></br></p>
 	            <p><a href="category.php"> Continue Without Login</a></br></p>
 		    <p><a href="New folder/simpleajax.php"> check</a></br></p>
-            </form>
+            	    <div id="targetDiv">
+	    		<p>Show here when login successful!</p>
+		   </div>
             
             </section>
       
