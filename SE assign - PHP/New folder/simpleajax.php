@@ -11,7 +11,7 @@
  	    <label><br>Password: <input type="text" name="password"> </label><br><br>
 	    <input name="submit" type ="button" onClick = "getData('data.php','targetDiv', username.value, password.value) " value = "Login">
 	</form>
-        <a href="addUser.php">Sign up</a>
+        <a href="New folder/addUser.php">Sign up</a>
 	<a href="index.php">Continue without login</a>
 	<div id="targetDiv">
 	    <p>Show here when login successful!</p>
