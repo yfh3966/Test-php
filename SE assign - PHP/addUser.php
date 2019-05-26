@@ -18,14 +18,16 @@
           $password = $_POST['password'];          
           $conn = OpenCon();
 
-          $exist = $conn->query("SELECT 1 FROM plant_the_tree");
+          $exist = $conn->query("SELECT 1 FROM SE_1b");
           if ($exist!==false) {
               //table checked! do nothing, continues to insert into database.
-          } else {
-              echo"table not exit."
+          } else {            
+              //if table is not exists, create table.
+              $sql_create = "CREATE TABLE SE_1b (USERNAME VARCHAR(255) PRIMARY KEY, PASSWORD VARCHAR(255), ADDRESS VARCHAR(255), DATEDELI VARCHAR(255))";
+              $conn->query($sql_create);
           }
 
-          $sql_insert = "INSERT INTO plant_the_tree VALUES ('$username','$password')";
+          $sql_insert = "INSERT INTO SE_1b VALUES ('$username','$password')";
 
           if($conn->query($sql_insert)===TRUE) {
             echo "<strong><p>Sign Up Successful!";
