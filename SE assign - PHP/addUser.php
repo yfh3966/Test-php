@@ -27,7 +27,7 @@
               $conn->query($sql_create);
           }
 
-          $sql_insert = "INSERT INTO SE_1b VALUES ('$username','$password')";
+          $sql_insert = "INSERT INTO se_1b VALUES ('$username','$password')";
 
           if($conn->query($sql_insert)===TRUE) {
             echo "<strong><p>Sign Up Successful!";
