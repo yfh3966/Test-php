@@ -9,7 +9,7 @@
 	sleep(3);
 	
 	// write back the password concatenated to end of the name
-	$sql = "SELECT * FROM plant_the_tree WHERE NAME LIKE '$username'";
+	$sql = "SELECT * FROM SE_1b WHERE NAME LIKE '$username'";
 	$result = $conn->query($sql);
 
 	if($result->num_rows>0) {
