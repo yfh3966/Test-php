@@ -37,10 +37,10 @@
 	<?php
         function OpenCon()
         {
-            $dbhost = "cmslamp14.aut.ac.nz";
-            $dbuser = "hvc8587";
-            $dbpwd = "xuxusheng123";
-            $db = "hvc8587";
+            $dbhost = "";
+            $dbuser = "";
+            $dbpwd = "";
+            $db = "";
 
             //check database exists.
             $conn = new mysqli($dbhost, $dbuser, $dbpwd, $db) or die("Connection failed: %s\n". $conn->error);
