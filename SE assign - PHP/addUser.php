@@ -19,7 +19,7 @@
 			
     <form class="form" action="addUser.php" method="post">
       <label>Name: <input type="text" name="name"></label>
-      <label><br>Password: <input type="text" name="password"></label></br></br>
+      <label><br>Password: <input type="text" name="password"></label></br>
       <input type="submit" value="Sign Up"></br>
       <input type="hidden" name="sub"></br>
       
