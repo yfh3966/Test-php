@@ -18,7 +18,7 @@
           <h2 class="section-header">Sign Up</h2>			
 			
     <form class="form" action="addUser.php" method="post">
-      <label>Name: <input type="text" name="name"></label></br>
+      <label>Name: <input type="text" name="name"></label>
       <label><br>Password: <input type="text" name="password"></label></br></br>
       <input type="submit" value="Sign Up"></br>
       <input type="hidden" name="sub"></br>
@@ -52,7 +52,7 @@
       <br><a href="index.php">Back to Home Page</a>
   </form>    
 </section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <footer class="main-footer">
         <div class="container main-footer-container">
             <h3 class="band-name">TreeCo</h3>
